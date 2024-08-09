@@ -1,0 +1,98 @@
+{
+    "sample:1": {
+        "columns": [
+            {
+                "path": "issuanceDate",
+                "encoder": "isodatetime-epoch-base32"
+            },
+            {
+                "path": "issuer",
+                "encoder": "string",
+                "prefix": [
+                    "did:web:digital.gouv.tg"
+                ]
+            },
+            {
+                "path": "id",
+                "encoder": "string"
+            },
+            {
+                "path": "proof.verificationMethod",
+                "encoder": "string",
+                "prefix": [
+                    "did:web:172.17.0.1"
+                ]
+            },
+            {
+                "path": "proof.proofValue",
+                "encoder": "multibase-base36"
+            },
+            {
+                "path": "proof.created",
+                "encoder": "isodatetime-epoch-base32"
+            },
+            {
+                "path": "credentialSubject.denomination",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.numeroEnregistrement",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.dateDeDemande",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.nomRepresentant",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.adresseSocial",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.dateSignature",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.ministre",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.cat",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.exp",
+                "encoder": "string"
+            },
+            {
+                "path": "credentialSubject.rat",
+                "encoder": "string"
+            }
+        ],
+        "template": {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/ed25519-2020/v1",
+                "https://raw.githubusercontent.com/tgvcs/2/main/vcContexts/MatddtAssociationCivileArreteV0.jsonld"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "credentialSubject": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/ed25519-2020/v1",
+                    "https://raw.githubusercontent.com/tgvcs/2/main/vcContexts/MatddtAssociationCivileArreteV0.jsonld"
+                ],
+                "type": "MatddtAssociationCivileArreteV0"
+            },
+            "proof": {
+                "type": "Ed25519Signature2020",
+                "proofPurpose": "assertionMethod"
+            }
+        }
+    }
+}

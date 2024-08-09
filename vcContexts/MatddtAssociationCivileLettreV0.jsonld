@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "MatddtAssociationCivileLettreV0": {
+            "@id": "schema:MatddtAssociationCivileLettreV0",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "denomination": "schema:name",
+                "numeroEnregistrement": "schema:name",
+                "nomPresident": "schema:name",
+                "sigle": "schema:name",
+                "dateSignature": "schema:name",
+                "dateDeDemande": "schema:name",
+                "ministre": "schema:name",
+                "cat": "schema:name",
+                "exp": "schema:name",
+                "rat": "schema:name"
+            }
+        }
+    }
+}

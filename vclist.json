@@ -1,105 +1,20 @@
 [
   {
-        "template": "MatddtAssociationCivileV1",
-        "name": " Test Matddt Civile Recepisse",
-        "description": "Le recepissé est un document délivré aux association",
-        "source": "jxt"
-  },
-  {
-        "template": "MatddtAssociationCivileV1",
+        "template": "MatddtAssociationCivileRecepisseV0",
         "name": "Matddt Civile Recepisse",
         "description": "Le recepissé est un document délivré aux association",
         "source": "jxt"
   },
   {
-        "template": "MatddtAssociationCivileLettreV1",
+        "template": "MatddtAssociationCivileLettreV0",
         "name": "Matddt Civile Lettre",
         "description": "Le recepissé est un document délivré aux association",
         "source": "jxt"
   },
   {
-        "template": "MatddtAssociationCivileArreteV1",
+        "template": "MatddtAssociationCivileArreteV0",
         "name": "Matddt Civile Arrêté",
-        "description": "Le recepissé est un document délivré aux association",
+        "description": "Le recepissé/arreté est un document délivré aux association",
         "source": "jxt"
   },
-  {
-        "template": "MplanAttestationV0",
-        "name": "Mplan Attestation",
-        "description": "Attestation délivrée",
-        "source": "jxt"
-  },
-  {
-        "template": "MplanAccordProgrammeV2",
-        "name": "Mplan Accord Programme (Sandbox)",
-        "description": "Accord programme délivré",
-        "source": "jxt"
-  },
-  {
-        "template": "MplanAccordProgrammeV0",
-        "name": "Mplan Accord Programme",
-        "description": "Accord programme délivré",
-        "source": "jxt"
-  },
-  {
-        "template": "SGGOrdreDeMissionV0",
-        "name": "SGG Ordre de mission",
-        "description": "Ordre de mission Sécrétariat général du gouvernement",
-        "source": "jxt"
-  },
-  {
-        "template": "EidCard",
-        "name": "EidCard",
-        "description": "Electronic Identifier Card",
-        "source": "jxt"
-  },
-  {
-        "template": "AnacDroneAutorisationV1",
-        "name": "ANAC - Drone demande d'autorisation V1",
-        "description": "ANAC - Demande d'autorisation pour un drone",
-        "source": "jxt"
-  },
-
-  {
-        "template": "AnacDroneAutorisationV2",
-        "name": "ANAC - Drone demande d'autorisation V2",
-        "description": "ANAC - Demande d'autorisation pour un drone",
-        "source": "jxt"
-  },
-  {
-        "template": "AnacDroneDeclarationV0",
-        "name": "ANAC - Drone Déclaration",
-        "description": "ANAC - Déclaration de drone",
-        "source": "jxt"
-  },
-  {
-        "template": "MspcImportationDroneV0",
-        "name": "MSPC - Importation de drone",
-        "description": "MSPC - Importation de drone",
-        "source": "jxt"
-  },
-  {
-        "template": "MspcImportationDroneV1",
-        "name": "MSPC - Importation de drone - V1",
-        "description": "MSPC - Importation de drone",
-        "source": "jxt"
-  },
-  {
-        "template": "MinarmUtilisationDroneV0",
-        "name": "MINARM - Utilisation de drone",
-        "description": "MINARM - Utilisation de drone",
-        "source": "jxt"
-  },
-  {
-        "template": "MatddtDadlRecepisseV0",
-        "name": "MATDDT - DADL Recepissé dépôt légal",
-        "description": "Dépôt légal de récépissé au DADL",
-        "source": "jxt"
-  },
-  {
-        "template": "CarteIdentiteSchema",
-        "name": "Test sandbox - Carte d'identité",
-        "description": "Test carte d'identité",
-        "source": "jxt"
-  }
 ]

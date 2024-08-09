@@ -5,8 +5,8 @@
         "id": "@id",
         "type": "@type",
         "schema": "https://schema.org/",
-        "MatddtAssociationCivileLettreV0": {
-            "@id": "schema:MatddtAssociationCivileLettreV0",
+        "MatddtAssociationCivileLettreSchemaV0": {
+            "@id": "schema:MatddtAssociationCivileLettreSchemaV0",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,

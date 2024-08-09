@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "MatddtAssociationCivileRecepisseV0": {
+            "@id": "schema:MatddtAssociationCivileRecepisseV0",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "denomination": "schema:name",
+                "but": "schema:name",
+                "ville": "schema:name",
+                "prefecture": "schema:name",
+                "commune": "schema:name",
+                "ministre": "schema:name",
+                "dateSignature": "schema:name",
+                "numeroArchivage": "schema:name",
+                "email": "schema:name",
+                "cat": "schema:name",
+                "exp": "schema:name",
+                "rat": "schema:name"
+            }
+        }
+    }
+}

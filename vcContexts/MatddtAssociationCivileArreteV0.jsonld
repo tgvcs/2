@@ -13,6 +13,7 @@
                 "denomination": "schema:name",
                 "dateDeDemande": "schema:name",
                 "nomRepresentant": "schema:name",
+                "numeroEnregistrement": "schema:name",
                 "adresseSocial": "schema:name",
                 "dateSignature": "schema:name",
                 "ministre": "schema:name",

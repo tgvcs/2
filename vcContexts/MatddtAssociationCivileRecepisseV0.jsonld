@@ -5,8 +5,8 @@
         "id": "@id",
         "type": "@type",
         "schema": "https://schema.org/",
-        "MatddtAssociationCivileRecepisseV0": {
-            "@id": "schema:MatddtAssociationCivileRecepisseV0",
+        "MatddtAssociationCivileRecepisseSchemaV0": {
+            "@id": "schema:MatddtAssociationCivileRecepisseSchemaV0",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,

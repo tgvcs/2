@@ -11,7 +11,6 @@
                 "@version": 1.1,
                 "@protected": true,
                 "denomination": "schema:name",
-                "numeroEnregistrement": "schema:name",
                 "nomPresident": "schema:name",
                 "sigle": "schema:name",
                 "dateSignature": "schema:name",

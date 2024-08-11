@@ -40,23 +40,15 @@
                 "encoder": "string"
             },
             {
-                "path": "credentialSubject.but",
+                "path": "credentialSubject.dateDeDemande",
                 "encoder": "string"
             },
             {
-                "path": "credentialSubject.ville",
+                "path": "credentialSubject.nomRepresentant",
                 "encoder": "string"
             },
             {
-                "path": "credentialSubject.prefecture",
-                "encoder": "string"
-            },
-            {
-                "path": "credentialSubject.commune",
-                "encoder": "string"
-            },
-            {
-                "path": "credentialSubject.ministre",
+                "path": "credentialSubject.adresseSocial",
                 "encoder": "string"
             },
             {
@@ -64,7 +56,7 @@
                 "encoder": "string"
             },
             {
-                "path": "credentialSubject.numeroArchivage",
+                "path": "credentialSubject.ministre",
                 "encoder": "string"
             },
             {
